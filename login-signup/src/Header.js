@@ -12,7 +12,7 @@ export default function Header() {
     <React.Fragment>
       <AppBar sx={{background:"#E43c90"}}>
         <Toolbar style={customizeToolbar}>
-        <Typography sx={{marginRight:'auto'}}><h2>LIZ GIFTS</h2></Typography>
+        <Typography sx={{marginRight:'auto'}} textColor='inherit'><h1>LIZ GIFTS</h1></Typography>
           <Tabs sx={{marginLeft:'auto'}} textColor='inherit'>
             <Tab label="Products"/>
             <Tab label="Services"/>
