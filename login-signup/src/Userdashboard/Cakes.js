@@ -90,7 +90,7 @@
 //   );
 // }
 
-import { Box,TextField,MenuItem, Select } from "@mui/material";
+import { Box,TextField,MenuItem, Select, Button } from "@mui/material";
 import React,{useState} from "react";
 
 export const Cakes=()=>
@@ -148,6 +148,8 @@ export const Cakes=()=>
           <MenuItem value={6}>Toasted Nuts</MenuItem>
           <MenuItem value={7}>Cookie crumbs</MenuItem>
     </Select>
-    </div>
+    <div>
+    <Button>Add to cart</Button>
+    </div></div>
   )
 }

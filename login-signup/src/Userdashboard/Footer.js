@@ -1,7 +1,7 @@
 // Footer.js
 import React from 'react';
 
-const Footer = () => {
+const Footter = () => {
   return (
     <footer style={footerStyle}>
       <div>
@@ -29,4 +29,4 @@ const additionalInfoStyle = {
   marginTop: '10px',
 };
 
-export default Footer;
+export default Footter;

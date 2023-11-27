@@ -45,7 +45,7 @@ export default function Header() {
               </Button>
             </div>
           
-          <Button sx={{marginLeft:'auto'}} variant='contained'>Cart<span>...</span><Iconcart/> </Button>
+          <Button sx={{marginLeft:'auto'}} variant='contained' onClick={()=>navigate('/Cart')}>Cart<span>...</span><Iconcart/> </Button>
         </Toolbar>
       </AppBar>
     </React.Fragment>

@@ -1,5 +1,6 @@
 // ContactUs.js
 import React from 'react';
+// import 'C:\Users\ashwi\Documents\Clgproject\LOGIN-SIGNUP\login-signup\src\Components\Contact.css';
 import './Contact.css';
 const ContactUs = () => {
   return (
@@ -21,9 +22,11 @@ const ContactUs = () => {
       <p>For queries and doubts contact:</p>
       <p>Number:123456789</p>
       <p>Address:Dubai main road,dubai</p>
-      
-      <img  width={50} src="https://cdn.iconscout.com/icon/premium/png-512-thumb/whatsapp-2752026-2284843.png?f=webp&w=256"/>
-      <img  width={50} src="https://cdn.iconscout.com/icon/free/png-512/free-instagram-188-498425.png?f=webp&w=256"/>
+      <a  href="//api.whatsapp.com/send?phone=919626099771&text='I have queries about your products'"
+ title="Share on whatsapp"><img  width={50} src="https://cdn.iconscout.com/icon/premium/png-512-thumb/whatsapp-2752026-2284843.png?f=webp&w=256"/></a>
+ <p></p>
+      <a href="http://instagram.com/_u/{Gift_shop}/">
+      <img  width={50} src="https://cdn.iconscout.com/icon/free/png-512/free-instagram-188-498425.png?f=webp&w=256"/></a>
       
       
       </div>
