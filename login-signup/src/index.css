@@ -6,7 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
-  background: linear-gradient(#e6e6fa,#e591c5);
+  background-image: url(C:\Users\ashwi\Documents\Clgproject\LOGIN-SIGNUP\login-signup\src\images\gift.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 code {

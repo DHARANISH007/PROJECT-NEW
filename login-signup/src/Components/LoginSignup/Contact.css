@@ -1,0 +1,23 @@
+/* .hed{
+    background-color:rgb(220, 80, 127);
+    width: 1530px;
+    height: 100px;
+    font-family:fantasy;
+    text-align: center;
+} */
+.bod{
+    background-color: rgb(251, 140, 223);
+    width: 100%;
+    height: 820px;
+    background-size:cover;
+    background-image: url('https://img.freepik.com/premium-photo/website-internet-contact-us-page-concept-with-phone-chat-email-icons-symbol-telephone-mail-mobile-phone-website-page-contact-us-wide-web-banner-copy-space-blue-background_256259-2730.jpg');
+    background-repeat: no-repeat;
+    text-align: center;
+    font-weight: bolder;
+}
+.contact{
+    text-align: center;
+}
+h2{
+    color: black;
+}

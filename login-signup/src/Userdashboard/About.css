@@ -1,0 +1,30 @@
+.containersr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100svh;
+    background-color:plum;
+    background-image: url("https://as2.ftcdn.net/v2/jpg/02/19/28/45/1000_F_219284516_pV0rOcipUlPqXUX4mnoSnC9dXH4NAA3q.jpg");
+    width: fit-content;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-weight: bold;
+    font-size: x-large;
+} 
+.navbar{
+    width: 1536px;
+   
+    display: flex;
+    align-items: center;
+    font-family: cursive;
+    font-style: italic;
+    background: linear-gradient(pink,rgb(204, 121, 135));
+    justify-content: center ;
+    font-size: x-large;
+    text-decoration: dotted;
+}
+h1{
+        color: aliceblue;
+}

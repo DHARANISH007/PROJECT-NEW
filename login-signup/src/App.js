@@ -26,6 +26,9 @@ import Header from './Header';
 import Home from './Components/LoginSignup/Home';
 import { Login } from './Components/LoginSignup/Login';
 import { Signup } from './Components/LoginSignup/Sign';
+import About from './Userdashboard/About';
+import ContactUs from './Components/LoginSignup/Contact';
+import {Cakes} from './Cakes';
 
 function App() {
   return (
@@ -34,6 +37,9 @@ function App() {
         <Routes>
           <Route path='log' element={<Login/>} />
           <Route path='sig' element={<Signup/>} />
+          <Route path='abt' element={<About/>} />
+          <Route path='con' element={<ContactUs/>} />
+          <Route path='Cakes'element={<Cakes/>}/>
           <Route path='/' element={<Home />} />
         </Routes>
         <Header />
